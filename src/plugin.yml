@@ -1,0 +1,9 @@
+name: ApproveRules
+version: 2021.11.15
+author: The-Repo-Club
+main: club.therepo.ApproveRules
+api-version: 1.17
+commands:
+  acceptrules:
+    description: Accept the rules!
+    usage: /<command>
