@@ -1,6 +1,7 @@
 package club.therepo;
 
 import club.therepo.command.ApproveRulesCommand;
+import club.therepo.command.RulesCommand;
 import club.therepo.listeners.ApproveRulesListener;
 import org.bukkit.Bukkit;
 import org.bukkit.event.HandlerList;
@@ -19,6 +20,7 @@ public class ApproveRulesPlugin {
         plugin.getConfig().options().copyDefaults(true);
         plugin.saveDefaultConfig();
         Objects.requireNonNull(plugin.getCommand("acceptrules")).setExecutor(new ApproveRulesCommand());
+        Objects.requireNonNull(plugin.getCommand("rules")).setExecutor(new RulesCommand());
         new ApproveRulesListener(this);
     }
 

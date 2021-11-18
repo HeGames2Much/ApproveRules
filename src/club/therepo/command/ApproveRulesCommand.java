@@ -21,6 +21,10 @@ public class ApproveRulesCommand implements CommandExecutor {
             for (String messages : ApproveRules.plugin.plugin.getConfig().getStringList("accept")) {
                 sender.sendMessage(ChatColor.translateAlternateColorCodes('&', messages));
             }
+            String msg = "%sender% Ran the command %command%!"
+                    .replaceAll("%sender%".toLowerCase(), sender.getName())
+                    .replaceAll("%command%".toLowerCase(), command.getName());
+            ApproveRules.plugin.plugin.getLogger().info(msg);
         } else {
             if (sender instanceof Player) {
                 LuckPerms api = LuckPermsProvider.get();
@@ -32,7 +36,10 @@ public class ApproveRulesCommand implements CommandExecutor {
                 for (String messages : ApproveRules.plugin.plugin.getConfig().getStringList("accept")) {
                     sender.sendMessage(ChatColor.translateAlternateColorCodes('&', messages));
                 }
-                ApproveRules.plugin.plugin.getLogger().info("{sender} Ran a command!");
+                String msg = "%sender% Ran the command %command%!"
+                        .replaceAll("%sender%".toLowerCase(), sender.getName())
+                        .replaceAll("%command%".toLowerCase(), command.getName());
+                ApproveRules.plugin.plugin.getLogger().info(msg);
             }
         }
 

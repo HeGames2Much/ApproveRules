@@ -4,15 +4,13 @@ about:
 options:
   enable: true
 rules:
-  - '&8)&7&m----------&8( &aGreenArmy Rules &8)&7&m----------&8('
+  - '&8)&7----------&8( &aSnickersMC Rules &8)&7----------&8('
   - '&8» &a+ &fDo not use language that is deemed racist, sexist, homophobic or derogatory.'
   - '&8» &a+ &fAttempt to be helpful and respectful to your fellow members.'
   - '&8» &a+ &fDo not spam this server or use unnecessary caps.'
   - '&8» &a+ &fKeep everything to the English language.'
   - '&8» &a+ &fI welcome and respect all of your opinions,'
   - '&8» &a+ &fI expect the same in return and to your fellow members.'
-  - '&8)&7&m----------&8( &aGreenArmy Rules &8)&7&m----------&8('
+  - '&8)&7----------&8( &aSnickersMC Rules &8)&7----------&8('
 accept:
-  - '&8)&7&m----------&8( &aGreenArmy Rules &8)&7&m----------&8('
-  - '&8)&7&m          Rules have been Accepted !             $8('
-  - '&8)&7&m----------&8( &aGreenArmy Rules &8)&7&m----------&8('
+  - '&aRules have been Accepted!'

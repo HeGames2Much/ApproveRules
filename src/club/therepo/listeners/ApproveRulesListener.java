@@ -38,6 +38,7 @@ public class ApproveRulesListener implements Listener {
                 for(String messages : ApproveRules.plugin.plugin.getConfig().getStringList("rules")) {
                     player.sendMessage(ChatColor.translateAlternateColorCodes('&', messages));
                 }
+                player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&fType &a/acceptrules &fto accept the rules."));
             }
         }
     }
