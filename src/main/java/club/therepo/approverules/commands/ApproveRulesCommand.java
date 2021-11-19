@@ -1,6 +1,6 @@
-package club.therepo.command;
+package club.therepo.approverules.commands;
 
-import club.therepo.ApproveRules;
+import club.therepo.approverules.ApproveRules;
 import net.luckperms.api.LuckPerms;
 import net.luckperms.api.LuckPermsProvider;
 import net.luckperms.api.model.data.DataType;

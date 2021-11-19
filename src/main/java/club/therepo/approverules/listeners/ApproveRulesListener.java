@@ -1,7 +1,7 @@
-package club.therepo.listeners;
+package club.therepo.approverules.listeners;
 
-import club.therepo.ApproveRules;
-import club.therepo.ApproveRulesPlugin;
+import club.therepo.approverules.ApproveRules;
+import club.therepo.approverules.ApproveRulesPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;

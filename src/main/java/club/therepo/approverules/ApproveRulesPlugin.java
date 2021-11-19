@@ -1,8 +1,8 @@
-package club.therepo;
+package club.therepo.approverules;
 
-import club.therepo.command.ApproveRulesCommand;
-import club.therepo.command.RulesCommand;
-import club.therepo.listeners.ApproveRulesListener;
+import club.therepo.approverules.commands.ApproveRulesCommand;
+import club.therepo.approverules.commands.RulesCommand;
+import club.therepo.approverules.listeners.ApproveRulesListener;
 import org.bukkit.Bukkit;
 import org.bukkit.event.HandlerList;
 

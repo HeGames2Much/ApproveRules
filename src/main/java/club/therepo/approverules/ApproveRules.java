@@ -1,8 +1,8 @@
-package club.therepo;
+package club.therepo.approverules;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class ApproveRules extends JavaPlugin {
+public final class ApproveRules extends JavaPlugin {
     public static ApproveRulesPlugin plugin;
 
     @Override

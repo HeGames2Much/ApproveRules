@@ -1,0 +1,23 @@
+name: ApproveRules
+version: '${project.version}'
+main: club.therepo.approverules.ApproveRules
+api-version: 1.17
+prefix: ApproveRules
+authors: [ MinecraftClub ]
+description: Accept rule to allows user to be able to move and interact with the world.
+website: https://github.com/Minecraft-Club/ApproveRules
+depend:
+  - LuckPerms
+commands:
+  acceptrules:
+    description: Accept the rules!
+    aliases:
+      - rulesaccept
+    usage: /<command>
+  rules:
+    description: Read the rules!
+    usage: /<command>
+permissions:
+  approverules.read:
+    default: false
+    description: Allows user to be able to move and interact with the world.
